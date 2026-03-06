@@ -1,2 +1,6 @@
 # node
 node_modules/
+
+# ai
+AGENTS.md
+CLAUDE.md
