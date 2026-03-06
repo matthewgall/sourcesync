@@ -1,0 +1,16 @@
+name = "rirdata"
+main = "src/index.ts"
+compatibility_date = "2026-02-24"
+
+account_id = "b0d7b9f87b57470ef508f1a511093cae"
+workers_dev = true
+
+[observability]
+enabled = true
+
+[triggers]
+crons = ["0 * * * *"]
+
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "rirdata"
